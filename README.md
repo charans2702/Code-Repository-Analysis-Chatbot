@@ -81,8 +81,8 @@ GOOGLE_API_KEY=your_google_api_key
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd <repository-name>
+git clone https://github.com/charans2702/Code-Repository-Analysis-Chatbot.git
+cd Code-Repository-Analysis-Chatbot
 ```
 
 2. Install backend dependencies:
@@ -106,7 +106,7 @@ uvicorn main:app --reload
 2. Start the frontend development server:
 ```bash
 cd my-react-app
-npm start
+npm run dev
 ```
 
 ## API Endpoints
