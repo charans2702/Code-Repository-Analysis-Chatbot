@@ -2,6 +2,14 @@
 
 A full-stack application that allows users to analyze and chat about code repositories using Google's Generative AI and LangChain. The system clones GitHub repositories, processes the code files, and enables intelligent conversations about the codebase.
 
+## Screenshots
+
+![Application Screenshot 1](./images/sc1.png)
+*Repository Analysis Interface*
+
+![Application Screenshot 2](./images/sc2.png)
+*Chat Interface with AI*
+
 ## Features
 
 - Repository cloning and code analysis
@@ -11,6 +19,20 @@ A full-stack application that allows users to analyze and chat about code reposi
 - React frontend for user interaction
 - Support for Python, HTML, and CSS file analysis
 - Conversation memory for contextual responses
+
+## Application Workflow
+
+```mermaid
+graph TD
+    A[User Input] --> B[Repository URL]
+    B --> C[Clone Repository]
+    C --> D[Process Code Files]
+    D --> E[Generate Embeddings]
+    E --> F[Store in Vector DB]
+    F --> G[Enable Chat Interface]
+    G --> H[User Questions]
+    H --> I[AI Responses]
+```
 
 ## Architecture
 
