@@ -1,0 +1,10 @@
+google-generativeai
+langchain
+tiktoken
+chromadb
+fastapi
+GitPython
+python-dotenv
+groq
+langchain-google-genai
+langchain-community
